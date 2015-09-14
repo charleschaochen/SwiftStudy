@@ -40,6 +40,8 @@
 		56B5FB271B73545500E96E4A /* SwiftStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B5FB2C1B73545600E96E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56B5FB2D1B73545600E96E4A /* SwiftStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyTests.swift; sourceTree = "<group>"; };
+		56B5FB3A1B7357BD00E96E4A /* helloworld.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = helloworld.playground; sourceTree = "<group>"; };
+		56B5FB3B1B73610E00E96E4A /* sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sort.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		56B5FB0F1B73545500E96E4A /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				56B5FB371B7355C400E96E4A /* learning */,
 				56B5FB121B73545500E96E4A /* AppDelegate.swift */,
 				56B5FB171B73545500E96E4A /* MasterViewController.swift */,
 				56B5FB191B73545500E96E4A /* DetailViewController.swift */,
@@ -116,6 +119,15 @@
 				56B5FB2C1B73545600E96E4A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56B5FB371B7355C400E96E4A /* learning */ = {
+			isa = PBXGroup;
+			children = (
+				56B5FB3A1B7357BD00E96E4A /* helloworld.playground */,
+				56B5FB3B1B73610E00E96E4A /* sort.playground */,
+			);
+			name = learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +179,7 @@
 				TargetAttributes = {
 					56B5FB0C1B73545500E96E4A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = BNJTJG65FW;
 					};
 					56B5FB261B73545500E96E4A = {
 						CreatedOnToolsVersion = 6.4;
@@ -350,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
